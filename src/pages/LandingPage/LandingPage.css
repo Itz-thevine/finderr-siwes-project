@@ -3,7 +3,7 @@
 }
 .landing_image_background {
   width: 100%;
-  height: 100vh;
+  height: 75vh;
   background-image: url(../../assets/images/landingImage.png);
   background-size: cover;
   background-position: center;
@@ -23,10 +23,13 @@
 }
 .landing_serach_container {
   display: flex;
-  width: 80%;
+  width: 75%;
   margin: auto;
-  margin-top: 45px;
+  margin-top: 25px;
   justify-content: center; 
+}
+.landing_serach_container > .ant-input-affix-wrapper {
+  border-radius: 9px;
 }
 .landing_serach_container input {
   background: #FFFFFF;
@@ -37,7 +40,7 @@
   height: 60px;
   background: #006962;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1), inset 0px 4px 4px rgba(0, 0, 0, 0.05);
-  border-radius: 15px;
+  border-radius: 9px;
   margin-left: 10px;
   font-size: 30px;
   color: #FFFFFF;
@@ -85,7 +88,7 @@
   justify-content: center;
 }
 .products_container, .services_container {
-  width: 80%;
+  width: 85%;
   margin: 20px auto;
   display: flex;
   justify-content: center;
@@ -118,7 +121,7 @@
 @media (max-width: 500px) {
   .products_container, .services_container {
     margin: 15px auto;
-    width: 85%;
+    width: 90%;
   }
   .landing_serach_container {
     width: 90% 
@@ -128,6 +131,7 @@
   }
   .landing_image_background {
     background-image: url(../../assets/images/mobile_cover_image.jpg);
+    height: 100vh;
   }
   .search_items_con { 
     width: 90%;

@@ -42,3 +42,8 @@
   font-size: 30px;
   color: white;
 }
+.mobile_nav_container {
+  display: flex;
+  justify-content: left;
+  padding: 10px 25px;
+}

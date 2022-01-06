@@ -10,6 +10,7 @@ const SlideDrawer = (props) => {
 
   return (
     <div className={`${drawerClasses} navCon`}>
+      <NavLink className="navItem" onClick={props.close} to="/">HOME</NavLink>
       <NavLink className="navItem" onClick={props.close} to="/products">PRODUCTS</NavLink>
       <NavLink className="navItem" onClick={props.close} to="/services">SERVICES</NavLink>
       <NavLink className="navItem" onClick={props.close} to="/contact">CONTACT US</NavLink>

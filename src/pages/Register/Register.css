@@ -1,0 +1,77 @@
+.register_big_text {
+  font-family: Montserrat;
+  font-weight: bolder;
+  font-size: 60px;
+  line-height: 70px;
+  text-align: left;
+  color: #FFFFFF;
+}
+.big_text_con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  height: 100%;
+  text-align: center;
+}
+.register_con{
+  padding-right: 50px;
+  padding-left: 50px;
+  background-color: rgba(0, 106, 97, 0.5);
+}
+.register_form {
+  width: 90%; 
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.register_form h2 {
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 33px;
+  line-height: 50px;
+  color: #FFFFFF;
+}
+.register_form p {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+.register_form input {
+  background: #F7FFFE;
+}
+.register_form input, .form_item {
+  border-radius: 5px;
+  margin-top: 3px;
+  margin-bottom: 4px;
+}
+.form_footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+}
+.form_footer button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background: #FB005A;
+  border-radius: 8px;
+}
+.form_footer > span {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
