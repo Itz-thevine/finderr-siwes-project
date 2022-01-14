@@ -54,3 +54,17 @@
   line-height: 59px;
   color: #00322F;
 }
+.business_title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center
+}
+.business_title h3:hover {
+  cursor: pointer;
+  color: #FB002D;
+  text-decoration: underline
+}
+.business_title>img {
+  height: 100px;
+  width: 100px
+}

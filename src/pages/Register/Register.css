@@ -1,3 +1,6 @@
+.register_con{
+  background-color: rgba(0, 106, 97, 0.5);
+}
 .register_big_text {
   font-family: Montserrat;
   font-weight: bolder;
@@ -6,46 +9,56 @@
   text-align: left;
   color: #FFFFFF;
 }
-.big_text_con {
+.text_col {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 90%;
-  margin: auto;
+  width: 100%; 
   height: 100%;
+  margin: auto;
   text-align: center;
-}
-.register_con{
-  padding-right: 50px;
   padding-left: 50px;
-  background-color: rgba(0, 106, 97, 0.5);
+  position: relative;
 }
-.register_form {
-  width: 90%; 
-  margin: 50px auto;
+.text_col img {
+  width: 73px;
+  height: 50px;
+  position: absolute;
+  top: 25px;
+  left: 50px;
+}
+.register_col {
+  background-image: url(../../assets/images/register-shape.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%; 
+  /* height: 120vh; */
+  padding-left: 70px;
+  padding-right: 50px;
+  padding-top: 100px;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
-.register_form h2 {
+.register_col h2 {
   font-family: Poppins;
   font-weight: bold;
   font-size: 33px;
   line-height: 50px;
   color: #FFFFFF;
 }
-.register_form p {
+.register_col p {
   font-family: Poppins;
   font-weight: 500;
   font-size: 12px;
   line-height: 20px;
   color: #FFFFFF;
 }
-.register_form input {
+.register_col input {
   background: #F7FFFE;
 }
-.register_form input, .form_item {
+.register_col input, .form_item {
   border-radius: 5px;
   margin-top: 3px;
   margin-bottom: 4px;

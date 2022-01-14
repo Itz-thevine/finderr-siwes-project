@@ -49,11 +49,11 @@ function LandingPage() {
         </Row>
       </div>
       <div className='action_tab_container'>
-        <Tabs>
-          <Tabs.TabPane tab="Products" key='products'>
+        <Tabs >
+          <Tabs.TabPane tab='Products' key='products'>
             <Products />
           </Tabs.TabPane>
-          <Tabs.TabPane tab="Services" key='services'>
+          <Tabs.TabPane tab='Services' key='services'>
             <Services />
           </Tabs.TabPane>
         </Tabs>

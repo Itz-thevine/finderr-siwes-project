@@ -26,7 +26,7 @@
 .item_serach_container {
   margin-bottom: 20px;
 }
-.ant-tabs > .ant-tabs-nav {
+.ant-tabs > .ant-tabs-nav .ant-tabs-nav-wrap {
   display: flex;
   justify-content: center;
 }
@@ -42,4 +42,12 @@
 }
 .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
   color: #FB002D !important;
+}
+.ant-tabs-ink-bar {
+  background: url(./assets/images/tab_img.png) !important;
+  height: 17px !important;
+  /* background-position: center;
+  background-size: cover; */
+  /* width: 74px !important; */
+  margin: auto;
 }

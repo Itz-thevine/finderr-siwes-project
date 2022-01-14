@@ -17,8 +17,12 @@ const Slider = () => {
 
   const getBGColor = () => location.pathname === '/' ? 'transparent' : '#00322F'
 
+  const getBGPosition = () => location.pathname === '/' ? 'absolute' : ''
+
   return (
-    <div className='mobile_nav_container' style={{ backgroundColor: getBGColor() }}>
+    <div className='mobile_nav_container'
+      style={{ backgroundColor: getBGColor(), position: getBGPosition(), top: 0, right: 0, left: 0, zIndex: 10 }}
+    >
       <SlideDrawer close={backdropClickHandler} show={drawerOpen} />
       <Main show={drawerOpen} toggle={drawerToggleClickHandler} />
     </div>
