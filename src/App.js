@@ -5,6 +5,8 @@ import Products from './pages/Products/Products'
 import Services from './pages/Services/Services'
 import ItemDetails from './pages/ItemDetails/ItemDetails'
 import Navbar from './components/Navbar/Navbar'
+import Banner from './components/Banner/Banner'
+import Footer from './components/Footer/Footer'
 import './App.css'
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
         <Route path='/services' exact component={Services} />
         <Route path='/item_details/:id' exact component={ItemDetails} />
       </Switch>
+      <Banner/>
+      <Footer/>
     </div>
   );
 }
